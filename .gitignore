@@ -31,3 +31,9 @@ env/
 
 # Bytecode files
 **/__pycache__/
+staticfiles/
+__pycache__/
+*.pyc
+.env
+*.sqlite3
+db.sqlite3
