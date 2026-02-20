@@ -1,39 +1,30 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
 
 # Django
-db.sqlite3
-media/
-static/
 *.log
+*.pot
+db.sqlite3
+db.sqlite3-journal
+/staticfiles/
+/media/
+
+# Environment
 .env
-
-# Compiled files
-*.pyc
-*.pyo
-
-# Virtual environments
+.venv
 venv/
-env/
+ENV/
 
-# Docker
-*.pid
-
-# OS files
-.DS_Store
-
-# IDEs / Editors
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Bytecode files
-**/__pycache__/
-staticfiles/
-__pycache__/
-*.pyc
-.env
-*.sqlite3
-db.sqlite3
+# OS
+.DS_Store
+Thumbs.db
